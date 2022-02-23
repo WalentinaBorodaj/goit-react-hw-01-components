@@ -1,16 +1,7 @@
+import s from "./App.module.css"
 export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        textTransform: 'uppercase',
-        color: '#010101',
-      }}
-    >
+  return ( 
+    <div className={s.div}>
       React homework template
     </div>
   );
